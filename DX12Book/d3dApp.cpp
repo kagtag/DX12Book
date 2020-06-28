@@ -545,7 +545,7 @@ void D3DApp::FlushCommandQueue()
 		// fire event when GPU hits current fence
 		ThrowIfFailed(mFence->SetEventOnCompletion(mCurrentFence, eventHandle));
 
-		// Wait util the GPU hits current fence event is fired
+		// Wait until the GPU hits current fence event is fired
 		WaitForSingleObject(eventHandle, INFINITE);
 		CloseHandle(eventHandle);
 	}
