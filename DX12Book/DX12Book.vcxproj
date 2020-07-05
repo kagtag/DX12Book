@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="d3dApp.cpp" />
     <ClCompile Include="d3dUtil.cpp" />
+    <ClCompile Include="DDSTextureLoader.cpp" />
     <ClCompile Include="GameTimer.cpp" />
     <ClCompile Include="GeometryGenerator.cpp" />
     <ClCompile Include="MathHelper.cpp" />
@@ -29,6 +30,7 @@
     <ClInclude Include="..\Include\d3dApp.h" />
     <ClInclude Include="..\Include\d3dUtil.h" />
     <ClInclude Include="..\Include\d3dx12.h" />
+    <ClInclude Include="..\Include\DDSTextureLoader.h" />
     <ClInclude Include="..\Include\GameTimer.h" />
     <ClInclude Include="..\Include\GeometryGenerator.h" />
     <ClInclude Include="..\Include\MathHelper.h" />
