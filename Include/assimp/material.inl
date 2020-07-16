@@ -86,6 +86,8 @@ unsigned int aiMaterial::GetTextureCount(aiTextureType type) const {
     return ::aiGetMaterialTextureCount(this,type);
 }
 
+#undef min
+
 // ---------------------------------------------------------------------------
 template <typename Type>
 AI_FORCE_INLINE
