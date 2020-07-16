@@ -25,6 +25,7 @@
     <ClCompile Include="GameTimer.cpp" />
     <ClCompile Include="GeometryGenerator.cpp" />
     <ClCompile Include="MathHelper.cpp" />
+    <ClCompile Include="Model.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Include\d3dApp.h" />
@@ -34,6 +35,7 @@
     <ClInclude Include="..\Include\GameTimer.h" />
     <ClInclude Include="..\Include\GeometryGenerator.h" />
     <ClInclude Include="..\Include\MathHelper.h" />
+    <ClInclude Include="..\Include\Model.h" />
     <ClInclude Include="..\Include\UploadBuffer.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

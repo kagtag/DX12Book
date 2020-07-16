@@ -43,13 +43,13 @@ struct PassConstants
 };
 
 
-struct Vertex
-{
-	XMFLOAT3 Pos;
-	//XMFLOAT4 Color;
-	XMFLOAT3 Normal;
-	XMFLOAT2 TexC;
-};
+//struct Vertex
+//{
+//	XMFLOAT3 Pos;
+//	//XMFLOAT4 Color;
+//	XMFLOAT3 Normal;
+//	XMFLOAT2 TexC;
+//};
 
 
 // Stores the resources needed for the CPU to build the command lists

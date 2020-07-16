@@ -191,6 +191,15 @@ struct Material
 	DirectX::XMFLOAT4X4 MatTransform = MathHelper::Identity4x4();
 };
 
+struct TextureId
+{
+	std::string shortName;
+	std::string type;
+	//std::string fullPath;
+
+	//unsigned int SRVHeapIndex;
+};
+
 struct Texture
 {
 	// Unique material name for lookup
@@ -200,6 +209,10 @@ struct Texture
 
 	ComPtr<ID3D12Resource> Resource = nullptr;
 	ComPtr<ID3D12Resource> UploadHeap = nullptr;
+
+	std::string type;
+
+	UINT SRVIndex;
 };
 
 #ifndef ThrowIfFailed
